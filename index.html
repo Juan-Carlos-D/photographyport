@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photography Portfolio Website</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a  href="index.html" class="nav__logo"><img src="./images/logo3.png" alt="Nav Logo"></a>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#exhibitions">Exhibitions</a></li>
+            </ul>
+
+            <ul class="nav__socials">
+                <li><a href="https://instagram.com/" target="_blank"><i class="uil uil-instagram-alt"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="https://youtube.com/" target="_blank"><i class="uil uil-youtube"></i></a></li>
+            </ul>
+
+            <button class="nav__toggle-btn" id="nav__toggle-open"><i class="uil uil-bars"></i></button>
+            <button class="nav__toggle-btn" id="nav__toggle-close"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <!--END OF NAV MARKUP-->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <div class="header__image-bg"></div>
+                <div class="header__image-lg">
+                    <img src="./images/aboutme2.jpg" alt="Header Image">
+                </div>
+                <div class="header__image-sm">
+                    <img src="./images/aboutme2.jpg" alt="Header Image">
+                </div>
+            </div>
+            <div class="header__right">
+               <div class="header__head">
+                    <div class="empty header__empty"></div>
+                    <a class="header__tag">#Best Travel Photographer 2023</a>
+                </div> 
+                <h1>Capturing and preserving the best moments in life through my lens</h1>
+                <p>Amateur photographer inspired by the natural beauty of the world. Aiming to capture breathtaking moments in space and preserving them for infinite time. </p>
+                <a href="mailto:jcarlosdominguez38@gmail.com" class="header__btn-md">Let's Talk</a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="header__frames">
+        <div class="header__frame">
+            <img src="./images/forest.jpg" alt="Header Frame One">
+        </div>
+        <div class="header__frame">
+            <img src="./images/joshuatree.jpg" alt="Header Frame Two">
+        </div>
+    </div>
+    <a href="mailto:jcarlosdominguez38@gmail.com" target="_blank" class="contact__btn header__btn">
+        <i class="uil uil-arrow-up-right"></i>
+        <p>CONTACT ME - SEND ME AN EMAIL</p>
+    </a>
+
+<!--END OF HEADER-->
+
+<section id="about">
+    <div class="container about__container">
+        <h2 class="about__title">About <br/>JC</h2>
+        <a href="mailto:jcarlosdominguez38@gmail.com" target="_blank" class="contact__btn about__btn">
+            <i class="uil uil-arrow-up-right"></i>
+            <p>CONTACT - SEND ME AN EMAIL </p>
+        </a>
+        <div class="about__left">
+            <div class="about__image">
+                <div class="about__image-bg"></div>
+                <div class="about__image-lg">
+                    <img src="./images/me3.jpg" alt="About Me">
+                </div>
+                <div class="about__image-sm">
+                    <img src="./images/me3.jpg" alt="About Me">
+                </div>
+            </div>
+        </div>
+        <div class="about__right">
+            <div class="empty about__empty"></div>
+            <p>
+                Hello Traveler! Thank you for visiting my portfolio. My name is Juan Carlos, I'm a SoCal Native and primarily a landscape photographer, but I do enjoy taking portraits as well. You could say I'm a "Fullstack Photographer". 
+            </p>
+            <p>
+                I started my photography journey back in 2016 when I noticed all these amazing instagram photos from travelers. I became inspired by the vibes conveyed through their pictures, and I guess you can say the rest is history.
+            </p>
+            <p>
+                I use a Nikon D3300 and iPhone XR for my pictures. Nothing complex, but I believe there's a lot of beauty in simplicity too! I hope you enjoy your visit. Shoot me a message if you'd like to collab! 
+            </p>
+        </div>
+    </div>
+</section>
+<!--END OF ABOUT -->
+
+<section id="gallery">
+    <div class="container gallery__container swiper mySwiper">
+        <div class="gallery__head">
+            <h2 class="gallery__title">My Gallery</h2>
+            <div class="empty gallery__empty"></div>
+        </div>
+        <p>
+            This gallery features a collection of some of my favorite photos from when I first started out up until today. You can find pictures here from my travels in Iceland, Japan, and the Western Region of the United States (West Coast is the Best Coast). 
+        </p>
+        <div class="swiper-wrapper">
+            <article class="swiper-slide">
+                <img src="./images/icelandwaterfall1.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/photographer.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/icelandalley.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/airplane.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/library.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/wintermountain.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/keflavik.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/deathvalley.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/icelandtower.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/icelandocean.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/icelandroad1.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/mountain2.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/rainforest.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/deserthill.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/yosemitesnow.jpg">
+            </article>
+            <article class="swiper-slide">
+                <img src="./images/snow.jpg">
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!--END OF GALLERY-->
+
+<section id="exhibitions">
+    <div class="container exhibitions__container">
+        <h2 class="exhibitions__title">Exhibitions</h2>
+        <div class="empty exhibitions__empty"></div>
+        <div class="exhibitions__head">
+            <p>
+                This section features my all time favorite photos. I do my best to capture these breathtaking moments, but I also give myself time to step away from the camera and be in the moment as well. 
+                Moments are fleeting so I don't always get a "perfect" shot, but capturing those "imperfections" are what truly makes a photographer!
+            </p>
+            <a href="mailto:jcarlosdominguez38@gmail.com" target="_blank" class="contact__btn exhibitions__btn">
+                <i class="uil uil-arrow-up-right"></i>
+                <p>CONTACT - SEND ME AN EMAIL</p>
+            </a>
+        </div>
+        <div class="exhibitions__gallery">
+            <article><img src="./images/waterfall.jpg"></article>
+            <article><img src="./images/yosemite2.jpg"></article>
+            <article><img src="./images/poppy1.jpg"></article>
+            <article><img src="./images/mountain1.jpg"></article>
+            <article><img src="./images/lake.jpg"></article>
+            <article><img src="./images/deathvalley2.jpg"></article>
+            <article><img src="./images/ocean.jpg"></article>
+            <article><img src="./images/utahsnow.jpg"></article>
+            <article><img src="./images/skogafoss.jpg"></article>
+            <article><img src="./images/yosemitesnow.jpg"></article>
+            <article><img src="./images/alpinelake.jpg"></article>
+            
+        </div>
+    </div>
+</section>
+<!--END OF EXHIBITION-->
+
+<footer>
+    <div class="container footer__container">
+        <div class="footer__head">
+            <h2 class="footer__title">Juan Carlos Dominguez</h2>
+            <a href="mailto:jcarlosdominguez38@gmail.com" class="footer__btn" target="_blank"><i class="uil uil-arrow-up-right"></i></a>
+        </div>
+        <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#exhibitions">Exhibitions</a></li>
+        </ul>
+    </div>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
